@@ -1,0 +1,281 @@
+body {
+    background-color: #E5E5E5;
+}
+#logo {
+    position: absolute;
+    left: 1%;
+    right: 38%;
+    top: 5%;
+    bottom: 0%;
+    width: 178px;
+    height: 80px;
+
+}
+#texto {
+    position: absolute;
+    width: 450px;
+    height: 280px;
+    left: 8%;
+    top: 168px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    border: none;
+    background:transparent;
+    box-shadow: none;
+    resize: none;
+    outline: 0;
+
+    color: #074796;
+}
+
+#button {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 80px;
+    left: 8%;
+    top: 400px;
+
+}
+#criptografar {
+    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    font-family: verdana;
+
+    width: 300px;
+    height: 70px;
+
+    background: #0b458b;
+    border-radius: 30px;
+    color:#FFFFFF;
+    font-size: 18px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#criptografar:hover {
+    background: #38495e;
+}
+#descriptografar {
+
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    font-family: verdana;
+
+    width: 300px;
+    height: 70px;
+
+
+    background: #0b458b;
+    border-radius: 30px;
+    color:#FFFFFF;
+    font-size: 18px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#descriptografar:hover {
+    background: #38495e;
+}
+
+#digiteTexto {
+    
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 65%;
+    top: 20px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0);
+    border-radius: 40px;
+
+}
+#digiteTexto img{
+   
+    max-width: 300px;
+    max-height: 800px;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-style: italic;
+
+}
+
+#digiteTexto  {
+    text-align: center;
+}
+
+#digiteTexto p{
+    text-align: center;
+    font-size: 16px;
+    font-style:italic;    
+    margin: 10%;
+
+    /*text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10%;*/
+}
+
+#resultado {
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 65%;
+    top: 20px;
+    /*position: absolute;
+    width: 400px;
+    height: 560px;
+    left: 70%;
+    top: 30px;*/
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0);
+    border-radius: 32px;
+    
+}
+#resultado textarea {
+    display: inline-block;
+    max-width: 300px;
+    max-height: 470px;
+    height: 300px;
+    width: 270px;
+    margin-top: 10%;
+    margin-left: 20%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:normal
+    font-weight: 450;
+    font-size: 38px;
+    line-height: 140%;
+    border: none;
+    
+    box-shadow: none;
+    
+    resize: none;
+    outline: 0;
+
+    color: black;
+}
+
+/*#resultado button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+
+    flex-direction: row;
+    align-items: flex-start;
+    background: #ffffff;
+    width: 328px;
+    height: 70px;
+    font-size: 20px;
+    color: #0A3871;
+    margin-left: 450;
+
+    border: 1px solid #083d7e;
+    border-radius: 28px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    margin-top: 30%;
+    margin-left: 10%;*/
+
+    #resultado button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+
+    flex-direction: row;
+    align-items: flex-start;
+    background: #ffffff;
+    width: 268px;
+    height: 40px;
+    font-size: 19px;
+    color: #0A3871;
+    margin-left: 450;
+
+    border: 1px solid #083d7e;
+    border-radius: 28px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    margin-top: 20%;
+    margin-left: 11%;
+
+}
+#resultado button:hover {
+    background: #f1f2fe;
+} 
+
+#info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    font-style: italic;
+
+    position: absolute;
+    width: 372px;           
+    height: 8px;
+    left: 8%;
+    top: 340px;
+
+    }
+
+#letras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    font-style: italic;
+
+    position: absolute;
+    width: 372px;           
+    height: 18px;
+    left: 8%;
+    top: 370px;
+
+    }
+
+    #creditos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 352px;
+    height: 18px;
+    left: 8%;
+    top: 540px;
+    font-style: italic;
+    }
